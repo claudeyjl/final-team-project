@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+    box-sizing: border-box;
+}
+
+body {
+	margin : auto;
+}
+
+.start-page h1 {
+	position: absolute;
+	top : 290px;
+	left : 100px;
+	font-family: 'Crete Round', serif;
+	font-size : 80px;
+	text-align: left;
+	margin : auto;
+	color :rgba(56,56,56,1.00);
+}
+
+.start-page #english {
+	position: absolute;
+	top : 380px;
+	left : 700px;
+	font-family: 'Crete Round', serif;
+	font-size : 30px;
+	margin : auto;
+	color :rgba(56,56,56,1.00);
+}
+
+.start-page #french {
+	position: absolute;
+	top : 380px;
+	left : 920px;
+	font-family: 'Crete Round', serif;
+	font-size : 30px;
+	margin : auto;
+	color :rgba(56,56,56,1.00);
+}
+
+.col-1 {width: 6.25%;}
+.col-2 {width: 12.50%;}
+.col-3 {width: 18.75%;}
+.col-4 {width: 25%;}
+.col-5 {width: 31.25%;}
+.col-6 {width: 37.50%;}
+.col-7 {width: 43.75%;}
+.col-8 {width: 50%;}
+.col-9 {width: 56.25%;}
+.col-10 {width: 62.50%;}
+.col-11 {width: 68.75%;}
+.col-12 {width: 75%;}
+.col-13 {width: 81.25%;}
+.col-14 {width: 87.50%;}
+.col-15 {width: 93.25%;}
+.col-16 {width: 100%;}
+
+img {
+	width : 100%;
+}
+
+.img-containter .start-page {
+	position : relative;
+}
+
+.main-text h1 {
+	position: absolute;
+	top : 400px;
+	padding-left: 22px;
+	text-align: left;
+	font-family: 'Heebo', sans-serif;
+	font-weight: bold;
+	font-size : 38px;
+}
+
+.immigration-text h1 {
+	position: absolute;
+	top : 200px;
+	padding-left: 30px;
+	text-align: left;
+	font-family: 'Heebo', sans-serif;
+	font-weight: bold;
+	font-size : 38px;
+}
+
+.search-area input {
+	width : 97%;
+	line-height : 4em;
+	border: 1px solid black;
+}
+
+.search-button input {
+	width : 97%;
+	line-height : 3.8em;
+	border: 1px solid black;
+}
+
+
+#box {
+	margin : auto;
+	position : relative;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.menu-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu-row {
+	background-color : rgba(52,81,116,1.00);
+	font-family: 'Heebo', sans-serif;
+	color : white;
+	text-align: center;
+}
+
+.frequent-title h2 {
+	font-family: 'Heebo', sans-serif;
+	color : rgba(52,81,116,1.00);
+	text-align: left;
+	padding-left : 20px;
+	padding-top : 20px;
+}
+
+.frequent-contents {
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Heebo', sans-serif;
+	font-size: 90%;
+}
+
+.footer-row {
+	font-family: 'Heebo', sans-serif;
+	color : rgba(52,81,116,1.00);
+	text-align: center;
+}
+
+.footer-row img {
+	margin : auto;
+	width : 100%;
+	padding-left: 50px;	
+}
+
